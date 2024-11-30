@@ -1,0 +1,67 @@
+{
+  "build": {
+    "frontendDist": "../src"
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "resources": [
+      "icons/icon.ico",
+      "NUC_X15_Fan更新日志.md"
+    ],
+    "icon": [
+      "icons/icon.png",
+      "icons/icon.ico"
+    ],
+    "publisher": "冫氵丶面包",
+    "copyright": "@cyear 2024",
+    "shortDescription": "x15 12代风扇曲线控制",
+    "windows": {
+      "webviewInstallMode": {
+        "type": "skip"
+      },
+      "wix": {
+        "language": "zh-CN"
+      }
+    }
+  },
+  "productName": "NUCtool",
+  "mainBinaryName": "NUC_X15_Fan",
+  "version": "0.3.0",
+  "identifier": "com.nuc.x15.fan.cyear.app",
+  "plugins": {},
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "NUC X15 Fan α版",
+        "width": 930,
+        "height": 580,
+        "label": "main",
+        "visible": true,
+        "transparent": true
+      },
+      {
+        "label": "splashscreen",
+        "url": "/splashscreen",
+        "title": "NUC X15 Fan",
+        "width": 800,
+        "height": 500,
+        "visible": false,
+        "transparent": true
+      },
+      {
+        "label": "tdp",
+        "url": "/tdp",
+        "title": "NUC X15 α测试工具",
+        "width": 800,
+        "height": 500,
+        "visible": false,
+        "transparent": true
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}

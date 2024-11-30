@@ -1,0 +1,13 @@
+{
+  "name": "x15_71fan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": true,
+  "dependencies": {
+    "react-chartjs-2": "^5.2.0"
+  }
+}
