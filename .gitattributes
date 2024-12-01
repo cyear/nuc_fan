@@ -1,0 +1,4 @@
+*.js linguist-language=Rust
+*.md linguist-language=Rust
+*.html linguist-language=Rust
+*.css linguist-language=Rust
